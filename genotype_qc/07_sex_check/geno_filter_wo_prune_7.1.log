@@ -1,0 +1,25 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile /gpfs/home/bzhu/work/ukbb_cardiac/new_target/GWA_tutorial/genotype_qc/06_hetero/geno_filter_6.3
+  --check-sex
+  --out geno_filter_wo_prune_7.1
+
+Hostname: nodea1419
+Working directory: /gpfs/group/torkamani/bzhu/ukbb_project/ukbb_cardiac/new_target/GWA_tutorial/genotype_qc/07_sex_check
+Start time: Wed Feb 28 14:08:25 2024
+
+Random number seed: 1709158105
+96602 MB RAM detected; reserving 48301 MB for main workspace.
+6974732 variants loaded from .bim file.
+39063 people (0 males, 0 females, 39063 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to geno_filter_wo_prune_7.1.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 39063 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is exactly 1.
+6974732 variants and 39063 people pass filters and QC.
+Note: No phenotypes present.
+Error: --check-sex/--impute-sex requires at least one polymorphic X chromosome
+locus.
+
+End time: Wed Feb 28 14:24:21 2024
